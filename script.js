@@ -25,7 +25,7 @@ const inputOperator = (operator) => {
 		prevNumber = currentNumber;
 	}
 	calculationOperator = operator;
-	currentNumber = 0;
+	currentNumber = '';
 };
 
 numbers.forEach((number) => {
